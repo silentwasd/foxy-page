@@ -4,7 +4,7 @@ export default defineI18nConfig(() => ({
     messages: {
         "en-US": {
             radio_title: 'Radio',
-            social_title: 'Social',
+            social_title: 'Let\'s talk!',
 
             hello_1: "Hi! I'm a funny vixen. I am already 900 years old, but at heart I am young and young. And I also love to chat and cuddle! Shall we hug?",
             hello_2: "Foxes can do a lot of things, but each fox is not like the others. We may differ" +
@@ -43,7 +43,7 @@ export default defineI18nConfig(() => ({
 
         "ja-JP": {
             radio_title: '無線',
-            social_title: '社交',
+            social_title: '話そう',
 
 
 
