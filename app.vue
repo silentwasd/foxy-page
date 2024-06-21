@@ -7,7 +7,7 @@
             <title>Главная</title>
         </Head>
 
-        <div class="bg bg-fuchsia-300 w-dvw h-dvh fixed -z-10"></div>
+        <BackgroundFixed class="bg-fuchsia-300"/>
 
         <div class="overflow-auto w-full h-full">
             <div class="container mx-auto max-w-4xl flex flex-col gap-10">
