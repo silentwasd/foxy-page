@@ -24,6 +24,12 @@
 
                 <DecoratorRgbBorder>
                     <DecoratorOpacityBackground :opacity="0.8">
+                        <BlockRadio/>
+                    </DecoratorOpacityBackground>
+                </DecoratorRgbBorder>
+
+                <DecoratorRgbBorder>
+                    <DecoratorOpacityBackground :opacity="0.8">
                         <BlockSocial class="p-10"/>
                     </DecoratorOpacityBackground>
                 </DecoratorRgbBorder>
