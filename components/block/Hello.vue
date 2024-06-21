@@ -6,7 +6,7 @@
         <h1 class="text-4xl text-center font-semibold font-amaranth">AssunaYuuki</h1>
 
         <div class="mt-5 text-2xl font-caveat">
-            <img src="/img/fennec.png"
+            <img src="/img/fennec.png" alt="Fennec"
                  class="h-full object-cover md:h-64 float-start mb-5 md:me-5 md:mb-2"/>
 
             <p>

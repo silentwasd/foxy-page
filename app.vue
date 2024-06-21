@@ -8,18 +8,11 @@
         </Head>
 
         <BackgroundFixed class="bg-fuchsia-300"/>
+        <BackgroundVhsScanLines/>
 
         <div class="overflow-auto w-full h-full">
-            <div class="container mx-auto max-w-4xl flex flex-col gap-10">
-                <div id="vhs">
-                    <div class="scan-lines"></div>
-                    <div class="vhs-wrap">
-                        <div class="vhs-meta">
-                        </div>
-                    </div>
-                </div>
-
-                <BlockSwitchLanguage/>
+            <div class="container mx-auto max-w-4xl flex flex-col gap-10 py-10">
+                <BlockSwitchLanguage class="z-10"/>
 
                 <DecoratorRgbBorder>
                     <DecoratorOpacityBackground :opacity="0.8">
