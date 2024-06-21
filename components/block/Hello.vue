@@ -3,9 +3,9 @@
 
 <template>
     <div>
-        <h1 class="text-4xl text-center font-semibold title">AssunaYuuki</h1>
+        <h1 class="text-4xl text-center font-semibold font-amaranth">AssunaYuuki</h1>
 
-        <div class="mt-5 text-2xl text-block">
+        <div class="mt-5 text-2xl font-caveat">
             <img src="/img/fennec.png"
                  class="h-full object-cover md:h-64 float-start mb-5 md:me-5 md:mb-2"/>
 
@@ -33,11 +33,5 @@
 </template>
 
 <style scoped>
-.title {
-    font-family: 'Amaranth', serif;
-}
 
-.text-block {
-    font-family: 'Caveat', sans-serif;
-}
 </style>
