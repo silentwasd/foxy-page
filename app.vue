@@ -10,6 +10,8 @@
         <BackgroundFixed class="bg-fuchsia-300"/>
         <BackgroundVhsScanLines/>
 
+        <ScrollbarSolidPink/>
+
         <div class="overflow-auto w-full h-full">
             <div class="container mx-auto max-w-4xl flex flex-col gap-10 py-10">
                 <BlockSwitchLanguage class="z-10"/>
