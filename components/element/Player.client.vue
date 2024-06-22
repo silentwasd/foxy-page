@@ -86,10 +86,10 @@ function renderFrame() {
 <template>
     <div class="relative">
         <div class="absolute top-0 w-full h-full flex items-center justify-center">
-            <button class="text-pink-800 hover:text-pink-600 relative" @click="play">
-                <span class="absolute top-5 left-4 w-16 h-16 rounded-full bg-white"></span>
+            <button class="text-pink-800 hover:text-pink-600 relative z-10" @click="play">
+                <span class="absolute top-5 left-4 w-16 h-16 rounded-full bg-white -z-10"></span>
                 <Icon :name="played ? 'i-heroicons-pause-circle-16-solid' : 'i-heroicons-play-circle-16-solid'"
-                      size="100"/>
+                      size="100" mode="svg"/>
             </button>
         </div>
 
