@@ -3,7 +3,7 @@
 
 <template>
     <div>
-        <h1 class="text-4xl text-center font-semibold font-amaranth">AssunaYuuki</h1>
+        <h1 class="text-4xl text-center font-gothic">AssunaYuuki</h1>
 
         <div class="mt-5 text-2xl font-caveat">
             <img src="/img/fennec.png" alt="Fennec"
