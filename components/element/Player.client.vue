@@ -89,7 +89,7 @@ function renderFrame() {
             <button class="text-pink-800 hover:text-pink-600 relative z-10" @click="play">
                 <span class="absolute top-5 left-4 w-16 h-16 rounded-full bg-white -z-10"></span>
                 <Icon :name="played ? 'heroicons:pause-circle-16-solid' : 'heroicons:play-circle-16-solid'"
-                      size="100"/>
+                      size="100" mode="svg"/>
             </button>
         </div>
 
