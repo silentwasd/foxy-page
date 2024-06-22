@@ -13,12 +13,12 @@
         <ScrollbarSolidPink/>
 
         <div class="overflow-auto w-full h-full">
-            <div class="container mx-auto max-w-4xl flex flex-col gap-10 py-10">
+            <div class="container mx-auto max-w-4xl flex flex-col gap-5 md:gap-10 px-2.5 py-2.5 md:px-0 md:py-10">
                 <BlockSwitchLanguage class="z-10"/>
 
                 <DecoratorRgbBorder>
                     <DecoratorOpacityBackground :opacity="0.8">
-                        <BlockHello class="p-10"/>
+                        <BlockHello class="p-5 md:p-10"/>
                     </DecoratorOpacityBackground>
                 </DecoratorRgbBorder>
 
@@ -30,7 +30,7 @@
 
                 <DecoratorRgbBorder>
                     <DecoratorOpacityBackground :opacity="0.8">
-                        <BlockSocial class="p-10"/>
+                        <BlockSocial class="p-5 md:p-10"/>
                     </DecoratorOpacityBackground>
                 </DecoratorRgbBorder>
             </div>

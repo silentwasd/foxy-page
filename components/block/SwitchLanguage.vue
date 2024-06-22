@@ -10,7 +10,7 @@ function switchLang(on: string) {
 </script>
 
 <template>
-    <div class="grid grid-cols-3 gap-5">
+    <div class="grid grid-cols-3 gap-2.5 md:gap-5">
         <ButtonPrimary :active="locale === 'en-US'" @click="switchLang('en-US')">
             English
         </ButtonPrimary>

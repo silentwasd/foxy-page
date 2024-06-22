@@ -93,7 +93,7 @@ function renderFrame() {
             </button>
         </div>
 
-        <canvas ref="canvas" class="w-full" :class="{'invisible': !played}" height="50"></canvas>
+        <canvas ref="canvas" class="w-full h-48" :class="{'invisible': !played}"></canvas>
     </div>
 </template>
 
