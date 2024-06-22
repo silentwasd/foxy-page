@@ -89,7 +89,7 @@ function renderFrame() {
             <button class="text-pink-800 hover:text-pink-600 relative" @click="play">
                 <span class="absolute top-5 left-4 w-16 h-16 rounded-full bg-white"></span>
                 <Icon :name="played ? 'i-heroicons-pause-circle-16-solid' : 'i-heroicons-play-circle-16-solid'"
-                      size="100" mode="css"/>
+                      size="100"/>
             </button>
         </div>
 
